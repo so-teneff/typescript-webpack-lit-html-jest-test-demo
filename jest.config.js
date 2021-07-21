@@ -4,12 +4,10 @@ module.exports = {
   transform: {
     "^.+\\.(js|ts)$": "ts-jest",
   },
-  transformIgnorePatterns: [
-    "node_modules/(?!lit-html)",
-  ],
+  transformIgnorePatterns: ["node_modules/(?!lit-html)"],
   globals: {
     "ts-jest": {
-      tsConfig: {
+      tsconfig: {
         allowJs: true,
       },
     },
