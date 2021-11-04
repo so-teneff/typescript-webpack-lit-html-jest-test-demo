@@ -4,7 +4,7 @@ module.exports = {
   transform: {
     "^.+\\.(js|ts)$": "ts-jest",
   },
-  transformIgnorePatterns: ["node_modules/(?!lit-html)"],
+  transformIgnorePatterns: ["node_modules/(?!\@?lit)"],
   globals: {
     "ts-jest": {
       tsconfig: {
